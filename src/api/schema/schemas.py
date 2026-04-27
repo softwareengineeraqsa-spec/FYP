@@ -1,0 +1,42 @@
+from pydantic import BaseModel
+
+class AttackData(BaseModel):
+    Protocol: int
+    Fwd_Packet_Length_Std: float
+    Bwd_Packet_Length_Min: int
+    Bwd_Packet_Length_Std: float
+    Flow_Bytes_s: float
+    Fwd_IAT_Min: int
+    Bwd_IAT_Total: int
+    Bwd_IAT_Mean: float
+    Bwd_IAT_Min: int
+    Bwd_PSH_Flags: int
+    Fwd_URG_Flags: int
+    Bwd_URG_Flags: int
+    Fwd_Header_Length: int
+    Bwd_Header_Length: int
+    Fwd_Packets_s: float
+    Bwd_Packets_s: float
+    FIN_Flag_Count: int
+    SYN_Flag_Count: int
+    RST_Flag_Count: int
+    PSH_Flag_Count: int
+    ACK_Flag_Count: int
+    CWE_Flag_Count: int
+    ECE_Flag_Count: int
+    Down_Up_Ratio: int
+    Fwd_Avg_Bytes_Bulk: int
+    Fwd_Avg_Packets_Bulk: int
+    Fwd_Avg_Bulk_Rate: int
+    Bwd_Avg_Bytes_Bulk: int
+    Bwd_Avg_Packets_Bulk: int
+    Bwd_Avg_Bulk_Rate: int
+    Subflow_Fwd_Packets: int
+    Subflow_Fwd_Bytes: int
+    Init_Fwd_Win_Bytes: int
+    Init_Bwd_Win_Bytes: int
+    Fwd_Act_Data_Packets: int
+    Active_Mean: float
+    Active_Std: float
+    Idle_Std: float
+    Idle_Min: int

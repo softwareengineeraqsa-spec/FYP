@@ -1,0 +1,564 @@
+{
+    "initial_shape": [
+        125170,
+        79
+    ],
+    "duplicates_removed": 3494,
+    "missing_before": 0,
+    "missing_after": 0,
+    "column_summary": {
+        "Protocol": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 3,
+            "mean": 9.956170485551793,
+            "std": 5.342281661300741
+        },
+        "Flow Duration": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 76000,
+            "mean": 20775139.780244254,
+            "std": 30395391.477454737
+        },
+        "Total Fwd Packets": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 299,
+            "mean": 9.800650908971367,
+            "std": 358.7848196651824
+        },
+        "Total Backward Packets": {
+            "dtype": "int16",
+            "missing_values": 0,
+            "unique_values": 398,
+            "mean": 5.713057628455899,
+            "std": 102.08955381277212
+        },
+        "Fwd Packets Length Total": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 4032,
+            "mean": 814.6470947265625,
+            "std": 2880.23828125
+        },
+        "Bwd Packets Length Total": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 4505,
+            "mean": 3459.78173828125,
+            "std": 183265.515625
+        },
+        "Fwd Packet Length Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 1848,
+            "mean": 196.18112182617188,
+            "std": 368.1847229003906
+        },
+        "Fwd Packet Length Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 668,
+            "mean": 122.65226745605469,
+            "std": 248.63873291015625
+        },
+        "Fwd Packet Length Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 6047,
+            "mean": 138.64308166503906,
+            "std": 253.064697265625
+        },
+        "Fwd Packet Length Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 6082,
+            "mean": 25.001474380493164,
+            "std": 92.18158721923828
+        },
+        "Bwd Packet Length Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 1068,
+            "mean": 136.2095489501953,
+            "std": 515.6458129882812
+        },
+        "Bwd Packet Length Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 214,
+            "mean": 13.668102264404297,
+            "std": 36.32551956176758
+        },
+        "Bwd Packet Length Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 5704,
+            "mean": 46.16261672973633,
+            "std": 160.81103515625
+        },
+        "Bwd Packet Length Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 5932,
+            "mean": 37.15375518798828,
+            "std": 153.88650512695312
+        },
+        "Flow Bytes/s": {
+            "dtype": "float64",
+            "missing_values": 0,
+            "unique_values": 87194,
+            "mean": 87658099.46973746,
+            "std": 371368825.8515327
+        },
+        "Flow Packets/s": {
+            "dtype": "float64",
+            "missing_values": 0,
+            "unique_values": 77667,
+            "mean": 159576.79810907753,
+            "std": 500014.8686668613
+        },
+        "Flow IAT Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 77504,
+            "mean": 1563585.25,
+            "std": 2328235.75
+        },
+        "Flow IAT Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 85168,
+            "mean": 2793668.75,
+            "std": 3953272.5
+        },
+        "Flow IAT Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 72134,
+            "mean": 8190912.0,
+            "std": 12585564.0
+        },
+        "Flow IAT Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 2065,
+            "mean": 9788.640625,
+            "std": 425583.5
+        },
+        "Fwd IAT Total": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 65366,
+            "mean": 20648052.0,
+            "std": 30439766.0
+        },
+        "Fwd IAT Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 66047,
+            "mean": 2113236.25,
+            "std": 2974603.25
+        },
+        "Fwd IAT Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 71076,
+            "mean": 3152780.75,
+            "std": 4518948.5
+        },
+        "Fwd IAT Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 61247,
+            "mean": 8121216.0,
+            "std": 12606290.0
+        },
+        "Fwd IAT Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 447,
+            "mean": 9260.45703125,
+            "std": 425744.34375
+        },
+        "Bwd IAT Total": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 33066,
+            "mean": 9746056.0,
+            "std": 23852840.0
+        },
+        "Bwd IAT Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 33272,
+            "mean": 1364212.625,
+            "std": 3242675.0
+        },
+        "Bwd IAT Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 33421,
+            "mean": 2479073.75,
+            "std": 5796951.5
+        },
+        "Bwd IAT Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 32520,
+            "mean": 5871940.0,
+            "std": 13651551.0
+        },
+        "Bwd IAT Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 106,
+            "mean": 2.1756386756896973,
+            "std": 8.080849647521973
+        },
+        "Fwd PSH Flags": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 2,
+            "mean": 0.04705118511456655,
+            "std": 0.2117492375310459
+        },
+        "Bwd PSH Flags": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Fwd URG Flags": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Bwd URG Flags": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Fwd Header Length": {
+            "dtype": "int64",
+            "missing_values": 0,
+            "unique_values": 1507,
+            "mean": -27836020.246753674,
+            "std": 286448051.79134333
+        },
+        "Bwd Header Length": {
+            "dtype": "int64",
+            "missing_values": 0,
+            "unique_values": 915,
+            "mean": -1149693.471695322,
+            "std": 78970304.88327578
+        },
+        "Fwd Packets/s": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 76891,
+            "mean": 155507.828125,
+            "std": 495902.1875
+        },
+        "Bwd Packets/s": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 55598,
+            "mean": 4068.9580078125,
+            "std": 50310.11328125
+        },
+        "Packet Length Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 613,
+            "mean": 121.87535858154297,
+            "std": 247.10260009765625
+        },
+        "Packet Length Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 1903,
+            "mean": 276.36865234375,
+            "std": 570.4909057617188
+        },
+        "Packet Length Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 8131,
+            "mean": 151.91055297851562,
+            "std": 258.7170104980469
+        },
+        "Packet Length Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 7738,
+            "mean": 44.87666320800781,
+            "std": 143.2908935546875
+        },
+        "Packet Length Variance": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 7738,
+            "mean": 22546.02734375,
+            "std": 106359.9921875
+        },
+        "FIN Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "SYN Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 2,
+            "mean": 0.0008300733094447549,
+            "std": 0.028799151100961047
+        },
+        "RST Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 2,
+            "mean": 0.04705118511456655,
+            "std": 0.2117492375310459
+        },
+        "PSH Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "ACK Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 2,
+            "mean": 0.47123508333607284,
+            "std": 0.4991739450560878
+        },
+        "URG Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 2,
+            "mean": 0.15890561819915183,
+            "std": 0.36558955285922223
+        },
+        "CWE Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 2,
+            "mean": 0.0814622439922417,
+            "std": 0.2735448075970276
+        },
+        "ECE Flag Count": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Down/Up Ratio": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 15,
+            "mean": 0.40550315380096436,
+            "std": 0.7754104733467102
+        },
+        "Avg Packet Size": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 8194,
+            "mean": 199.7497100830078,
+            "std": 367.1159362792969
+        },
+        "Avg Fwd Segment Size": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 6047,
+            "mean": 138.64308166503906,
+            "std": 253.064697265625
+        },
+        "Avg Bwd Segment Size": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 5704,
+            "mean": 46.16261672973633,
+            "std": 160.81103515625
+        },
+        "Fwd Avg Bytes/Bulk": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Fwd Avg Packets/Bulk": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Fwd Avg Bulk Rate": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Bwd Avg Bytes/Bulk": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Bwd Avg Packets/Bulk": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Bwd Avg Bulk Rate": {
+            "dtype": "int8",
+            "missing_values": 0,
+            "unique_values": 1,
+            "mean": 0.0,
+            "std": 0.0
+        },
+        "Subflow Fwd Packets": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 299,
+            "mean": 9.800650908971367,
+            "std": 358.7848196651824
+        },
+        "Subflow Fwd Bytes": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 4032,
+            "mean": 814.6471202209145,
+            "std": 2880.2383911498205
+        },
+        "Subflow Bwd Packets": {
+            "dtype": "int16",
+            "missing_values": 0,
+            "unique_values": 398,
+            "mean": 5.713057628455899,
+            "std": 102.08955381277212
+        },
+        "Subflow Bwd Bytes": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 4505,
+            "mean": 3459.781518130116,
+            "std": 183265.52295574063
+        },
+        "Init Fwd Win Bytes": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 1608,
+            "mean": 4468.990770571025,
+            "std": 7259.2752653259995
+        },
+        "Init Bwd Win Bytes": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 1333,
+            "mean": 1147.9261152569118,
+            "std": 6414.691200433922
+        },
+        "Fwd Act Data Packets": {
+            "dtype": "int16",
+            "missing_values": 0,
+            "unique_values": 236,
+            "mean": 5.936971958315526,
+            "std": 57.396275775369375
+        },
+        "Fwd Seg Size Min": {
+            "dtype": "int32",
+            "missing_values": 0,
+            "unique_values": 845,
+            "mean": -12424841.628990104,
+            "std": 114273849.86244074
+        },
+        "Active Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 14533,
+            "mean": 81602.7890625,
+            "std": 468184.75
+        },
+        "Active Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 20242,
+            "mean": 79588.9609375,
+            "std": 392961.71875
+        },
+        "Active Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 13359,
+            "mean": 187243.703125,
+            "std": 847008.5625
+        },
+        "Active Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 6251,
+            "mean": 35528.34375,
+            "std": 390688.8125
+        },
+        "Idle Mean": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 46002,
+            "mean": 6362133.5,
+            "std": 10794337.0
+        },
+        "Idle Std": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 41450,
+            "mean": 1550825.5,
+            "std": 3204666.25
+        },
+        "Idle Max": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 45737,
+            "mean": 8019827.5,
+            "std": 12649491.0
+        },
+        "Idle Min": {
+            "dtype": "float32",
+            "missing_values": 0,
+            "unique_values": 45536,
+            "mean": 4920872.5,
+            "std": 9788669.0
+        },
+        "Label": {
+            "dtype": "object",
+            "missing_values": 0,
+            "unique_values": 8
+        },
+        "AttackCategory": {
+            "dtype": "object",
+            "missing_values": 0,
+            "unique_values": 2
+        }
+    },
+    "final_shape": [
+        121676,
+        79
+    ]
+}
